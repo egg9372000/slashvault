@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SlashVault — 100% Local Text Expander &amp; AI Prompt Snippets</title>
+  <style>
+    :root { --bg:#080d1a; --surface:#111827; --border:rgba(148,163,184,0.16); --text:#f8fafc; --muted:#94a3b8; --blue:#3b82f6; --amber:#f59e0b; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { background:radial-gradient(circle at 20% 0%,rgba(59,130,246,0.18),transparent 45%),radial-gradient(circle at 80% 10%,rgba(245,158,11,0.12),transparent 40%),var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif; line-height:1.6; }
+    .container { max-width:1020px; margin:0 auto; padding:0 24px; }
+    nav { display:flex; align-items:center; justify-content:space-between; padding:20px 0; border-bottom:1px solid var(--border); }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:18px; text-decoration:none; color:#fff; }
+    .brand img { width:32px; height:32px; border-radius:8px; }
+    .links { display:flex; gap:20px; }
+    .links a { color:var(--muted); text-decoration:none; font-size:14px; }
+    .hero { text-align:center; padding:66px 0 44px; }
+    .pill { display:inline-block; padding:5px 12px; border-radius:999px; background:rgba(59,130,246,0.16); border:1px solid rgba(59,130,246,0.35); color:#93c5fd; font-size:12px; font-weight:700; margin-bottom:16px; }
+    h1 { font-size:clamp(32px,5vw,52px); line-height:1.12; max-width:760px; margin:0 auto 16px; }
+    .hero p { font-size:17px; color:var(--muted); max-width:600px; margin:0 auto 28px; }
+    .cta { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-bottom:40px; }
+    .btn { padding:12px 22px; border-radius:10px; font-weight:700; text-decoration:none; font-size:15px; }
+    .btn-primary { background:linear-gradient(135deg,var(--blue),var(--amber)); color:#fff; box-shadow:0 10px 30px rgba(59,130,246,0.3); }
+    .btn-sec { background:var(--surface); color:#e2e8f0; border:1px solid var(--border); }
+    .hero-img { width:100%; border-radius:16px; border:1px solid var(--border); box-shadow:0 24px 60px rgba(0,0,0,0.6); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; padding:48px 0; }
+    .card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:22px; }
+    .card h3 { font-size:16px; margin-bottom:6px; }
+    .card p { font-size:14px; color:var(--muted); }
+    footer { border-top:1px solid var(--border); padding:28px 0; text-align:center; color:var(--muted); font-size:13px; }
+    footer a { color:#94a3b8; margin:0 10px; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a class="brand" href="#"><img src="icon128.png" alt="SlashVault" /><span>SlashVault</span></a>
+      <div class="links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="https://eggcellent20.gumroad.com/l/ndisnj" target="_blank" rel="noopener">Get Pro ($12)</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="pill">ZERO-SUBSCRIPTION TEXT EXPANDER · 100% LOCAL &amp; PRIVATE</div>
+      <h1>Type /shortcuts to expand emails, replies &amp; AI prompts anywhere.</h1>
+      <p>Stop paying $36+/year for basic text expansion. SlashVault works locally across Gmail, ChatGPT, Claude, Gemini, Slack, LinkedIn &amp; Notion with dynamic {{variables}} — for a single $12 lifetime license.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://eggcellent20.gumroad.com/l/ndisnj" target="_blank" rel="noopener">Get SlashVault Pro — $12 Lifetime</a>
+        <a class="btn btn-sec" href="privacy.html">100% Local &amp; Private</a>
+      </div>
+      <img class="hero-img" src="hero-banner.png" alt="SlashVault Local Text Expander & AI Prompts" />
+    </section>
+    <section class="grid">
+      <div class="card"><h3>Works on Modern Web Apps</h3><p>Properly updates React, Vue, and contenteditable inputs on Gmail, ChatGPT, Claude, Gemini, LinkedIn, and Notion.</p></div>
+      <div class="card"><h3>Dynamic {{variable}} Popups</h3><p>Insert placeholders like {{name}}, {{topic}}, {{date}} and fill them in a crisp 2-second popup before expanding.</p></div>
+      <div class="card"><h3>Password-Safe &amp; Offline-First</h3><p>Explicitly ignores password fields, never logs keystrokes, and stores all snippets locally in your browser.</p></div>
+      <div class="card"><h3>Pay Once, Own Forever</h3><p>No 20-snippet subscription wall. Unlock unlimited snippets, dynamic variables, and JSON backup for $12 once.</p></div>
+    </section>
+    <footer>© 2026 SlashVault · <a href="privacy.html">Privacy Policy</a></footer>
+  </div>
+</body>
+</html>
